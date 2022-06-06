@@ -1,1 +1,32 @@
 /**************Génesis****************/
+.Section_planetas{
+    width: 100%;
+    min-height: 46rem;
+    padding: 200px 50px;
+    background-image: url(https://i.ibb.co/gWcD69J/Rectangle-9.png);
+    background-size: cover;
+}
+.planetas{
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-between; */
+   justify-content: center;
+   align-items: center;
+}
+
+.planetas div{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+}
+.imagenes{
+    width: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
